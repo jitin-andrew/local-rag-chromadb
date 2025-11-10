@@ -22,7 +22,7 @@ python3 finetune_generate.py ingest \
 2) generate:
 
 ```bash
-python finetune_generate.py query \
+python3 finetune_generate.py query \
   --query "what services does [x] company provide?" \
   --vector_db_path ./chroma_db
 ```
